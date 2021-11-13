@@ -5,12 +5,12 @@ import axios from 'axios'
 const Search = (props) => {
   return (
   <div>
-  <input 
+   <input 
     type="search"
     value={props.countryEntered}
     onChange={props.onChange}
-    />  
-</div>
+   />  
+  </div>
   )
 }
 
@@ -79,7 +79,7 @@ const Weather = (props) => {
     <li>Wind {props.wind_speed} mph, direction {props.wind_dir}</li>
     <li>{props.weather_descriptions}</li>
     <br />
-    <br/>
+    <br />
     <div>Data collected {new Intl.DateTimeFormat('en-EN').format(date)}</div>
     </div>
   )
