@@ -1,0 +1,38 @@
+.error {
+  color: rgb(161, 89, 255);
+  background: rgb(206, 253, 196);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  background: lightgrey;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.blog {
+  color: rgb(0, 44, 0);
+  font-size: 16px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  background-color: rgb(255, 89, 200);
+  border: transparent;
+  border-radius: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
