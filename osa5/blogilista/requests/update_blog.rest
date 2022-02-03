@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/61d9c9788837c84c038e1f4d
+Content-Type: application/json
+
+{
+  "user": "61d9c9468837c84c038e1f49",
+  "likes": 22,
+  "author": "Kamu Jooseppi",
+  "title": "Hemulin testi",
+  "url": "https://www.testikissat.fi"
+}
